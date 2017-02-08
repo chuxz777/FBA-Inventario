@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBA-Inventario", "FBA-Inventario\FBA-Inventario.csproj", "{1302EC06-3FA9-4E29-8F2A-38AF41DC34D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cls_PL", "FBA-Inventario\Cls_PL.csproj", "{1302EC06-3FA9-4E29-8F2A-38AF41DC34D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{B58175C5-2E76-4CAC-A0B2-B879EB900653}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{35A8BC11-499B-47BD-88F4-CF5E0AD6433D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{158492E8-2215-450D-A589-B616A1316628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cls_DAL", "WindowsFormsApplication2\Cls_DAL.csproj", "{CFCA4F24-45B3-47B6-A9DF-04F793BD4841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cls_BLL", "ClassLibrary1\Cls_BLL.csproj", "{090A79B2-E84E-40CD-9AB0-85F9404BDF0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +25,21 @@ Global
 		{1302EC06-3FA9-4E29-8F2A-38AF41DC34D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1302EC06-3FA9-4E29-8F2A-38AF41DC34D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1302EC06-3FA9-4E29-8F2A-38AF41DC34D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCA4F24-45B3-47B6-A9DF-04F793BD4841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCA4F24-45B3-47B6-A9DF-04F793BD4841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCA4F24-45B3-47B6-A9DF-04F793BD4841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCA4F24-45B3-47B6-A9DF-04F793BD4841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090A79B2-E84E-40CD-9AB0-85F9404BDF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090A79B2-E84E-40CD-9AB0-85F9404BDF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090A79B2-E84E-40CD-9AB0-85F9404BDF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090A79B2-E84E-40CD-9AB0-85F9404BDF0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1302EC06-3FA9-4E29-8F2A-38AF41DC34D7} = {158492E8-2215-450D-A589-B616A1316628}
+		{CFCA4F24-45B3-47B6-A9DF-04F793BD4841} = {35A8BC11-499B-47BD-88F4-CF5E0AD6433D}
+		{090A79B2-E84E-40CD-9AB0-85F9404BDF0A} = {B58175C5-2E76-4CAC-A0B2-B879EB900653}
 	EndGlobalSection
 EndGlobal
