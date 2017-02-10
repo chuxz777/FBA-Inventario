@@ -61,6 +61,12 @@
     <Compile Include="Pantallas\Catalogos\Frm_Venta.Designer.cs">
       <DependentUpon>Frm_Venta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pantallas\Login\Frm_Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Login\Frm_Inicio.Designer.cs">
+      <DependentUpon>Frm_Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validaciones\Cls_Validaciones_PL.cs" />
@@ -91,7 +97,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pantallas\Login\" />
     <Folder Include="Pantallas\Menu\" />
   </ItemGroup>
   <ItemGroup>
