@@ -51,11 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Catalogos\Donacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BaseDatos\" />
-    <Folder Include="Catalogos\" />
     <Folder Include="Validaciones\" />
   </ItemGroup>
   <ItemGroup>
